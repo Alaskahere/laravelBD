@@ -2,9 +2,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\operacionController;
 use App\Http\Controllers\ProductController;
-
-use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\StoreController;
+use App\Http\Controllers\CustomerController;
+
 
 /*
 |---------------use Illuminate\Support\Facades\Route;-----------------------------------------------------------
@@ -32,12 +32,9 @@ Route::post('calcular',[operacionController::class,'store'])->name('for.store');
 Route::get('/producto',[ProductController::class,'create']); //http://localhost/laravel1/public/producto
 Route::post('/crearProducto',[ProductController::class,'store'])->name('product.store');
 
-Route::get('/customer',[CustomerController::class,'create1']); 
-Route::post('/creado',[CustomerController::class,'store'])->name('customer.store');
-
-
-
-
-
 Route::get('/st',[StoreController::class,'create']); 
 Route::post('/creado',[StoreController::class,'store'])->name('storemall.store');
+
+
+Route::get('/customer',[CustomerController::class,'create1']); 
+Route::post('/creado',[CustomerController::class,'store'])->name('customer.store');

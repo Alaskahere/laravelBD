@@ -18,9 +18,9 @@ class CustomerController extends Controller{
 
        $cust = new Customer();
        $cust->name=$request->name;  
-       $cust->edad=$request->edad;
+       $cust->age=$request->age;
        $cust->phone=$request->phone;
-       $cust->email=$request->email;
+       $cust->Email=$request->Email;
        $cust->save();
        return $cust;
 

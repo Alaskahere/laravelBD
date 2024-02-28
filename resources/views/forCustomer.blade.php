@@ -20,21 +20,21 @@
 </label>
 <br>
 <label>
-    edad :
+    Edad:
     <br>
-    <input type="number" name="edad">
+    <input type="number" name="age">
 </label>
 <br>
 <label>
-    phone: :
+    Teléfono:
     <br>
     <input type="text" name="phone">
 </label>
 <br>
 <label>
-    E-mail: :
+    Correo electrónico:
     <br>
-    <input type="text" name="email">
+    <input type="text" name="Email">
 </label>
 <br><br>
 
@@ -42,4 +42,4 @@
 </form>
 
 </body>
-</html>
+</html> 
